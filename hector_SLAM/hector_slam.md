@@ -22,8 +22,8 @@ cd ..
 catkin_make
 vim ~/.bashrc
 source /home/hatcher/catkin_ws/devel/setup.bash 
-// "hatcher"should be replaced by your own username,check te attribute of the folder to find your username.Add this code to the bottom of ~/.bashrc
 ```
+"hatcher"should be replaced by your own username,check te attribute of the folder to find your username.Add this code to the bottom of ~/.bashrc
 
  ## 4.launch
  ```bash
@@ -35,7 +35,7 @@ source /home/hatcher/catkin_ws/devel/setup.bash
  cd launch
  vim tutorial.launch
  ```
- //add the following code block to the file you vim
+ add the following code block to the file you vim
  ```
     <launch>
 
@@ -59,6 +59,4 @@ save the file and exit
 ```
 ` roslaunch tutorial.launch`
 ```
- //with all those steps done,you could see a map on rviz,
- walk around in your room with lidar and PC,you could build a map
- of your room.
+ with all those steps done,you could see a map on rviz,walk around in your room with lidar and PC,you could build a map of your room.
